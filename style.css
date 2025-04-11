@@ -1,0 +1,236 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family:lato-regular!important;
+}
+
+@font-face {
+    font-family: lato-regular;
+    font-display: swap;
+    src: url("../font/lato-regular.woff2"),
+         url("../font/lato-regular.woff"),
+         url("../font/insurmonthly-Regular.ttf");
+   
+}
+
+@font-face {
+    font-family: insurmonthly-Black;
+    src: url("../font/insurmonthly-Black.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: insurmonthly-Bold;
+    src: url("../font/insurmonthly-Bold.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: insurmonthly-Regular;
+    src: url("../font/insurmonthly-Regular.ttf");
+    font-display: swap;
+}
+
+.wp_body{
+    overflow: hidden;
+    background-position: bottom left;
+    background-image: url(../img/insurmonthly-service.gif);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 50px;
+
+}
+
+.wp_body1 h2 {
+    text-align: center;
+    margin-right: 128px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: -18px;
+  }
+
+iframe {
+  height: 100vh!important;
+}
+.mainBanner  {
+    width: 250px;
+}
+
+/*.MobileApp {
+    width: 100%;
+    border: 30px white solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 0px;
+    min-height: 100vh;
+    height: 100%;
+}*/
+
+.logo_tru2  {
+    position: absolute;
+}
+.MobileApp {
+    margin-right: 0px;
+    border-radius: 20%;
+}
+
+
+.logo_tru2 img {
+    
+    padding: 14px;
+
+}
+
+._main_trufedu_menu {
+    display: inline-flex;
+    list-style: none;
+    
+
+}
+
+._main_trufedu_menu li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 5;
+    font-weight: 100;
+    padding: 0.5rem 1.5rem;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a.active {
+  background-color: transparent;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  width: 350px;
+      margin-top: 24px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: transparent;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: transparent;
+}
+
+.search-container input {
+     background: #e33c87;
+}
+.search-container:focus input {
+     background: #e33c87;
+     outline: 0;
+     
+
+}
+._tru_control:focus {
+    outline: 0;
+    background-color: #ec2f85;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+
+}
+
+.button_submit img{
+    position: absolute;
+    top: 33px;
+    width: 20px;
+}
+
+.cart_section {
+    float: right;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .mobile_nav {
+    display: none;
+  }
+}
+
+
+}
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+._tru_base {
+    border-radius: 0px;
+}
+
+
+
+.content {display:none;}
+.preload { 
+        width: 100px;
+    height: 100px;
+    z-index: 0;
+    position: fixed;
+    top: 40%;
+    right: 16%;
+    z-index: -1;
+}
+
+@media screen and  (max-width:698px) {
+  .MobileApp  {
+    padding: 0px!important;
+  }
+  .preload {
+   width: 35%;
+    text-align: center;
+    right: 30%;
+    margin: auto;
+
+  }
+
+  .preload img {
+        width: 58%;
+  }
+  .wp_body{
+    background-image:none!important;
+
+
+}
+
+
+}
